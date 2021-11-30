@@ -1,8 +1,8 @@
 // canvas
 let canvas = document.querySelector('#stage')
 let ctx = canvas.getContext('2d')
-canvas.width = 1200
-canvas.height = 800
+canvas.width = 800
+canvas.height = 600
 
 // 物理變數
 let time = 0
