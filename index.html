@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Fireworks</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-family: 'Noto Sans TC', sans-serif;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #282C34
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #fff;
+      user-select: none;
+    }
+
+    #stage {
+      max-width: 100%;
+      border: 1px solid white;
+      border-radius: 15px;
+      user-select: none;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Fireworks</h2>
+  <canvas id="stage"></canvas>
+
+  <script src="all.js"></script>
+</body>
+
+</html>
